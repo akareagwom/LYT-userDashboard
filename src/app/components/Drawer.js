@@ -14,13 +14,16 @@ const SideBar = () => {
         <Box
         bg={'white'}
         w={'20%'} 
+        h={'100vh'}
         display={'block'}
-        p={5}
+        boxShadow={'lg'}
         defaultIndex={1}
         >
           <Heading>LYT</Heading>
           <Flex
           my={6}
+          _hover={{bg:'#0FA44A',color:'white'}}
+          p={3}
           justifyContent={'flex-start'}
           alignItems={'center'}
           >
@@ -31,6 +34,8 @@ const SideBar = () => {
           </Flex>
           <Flex
           my={6}
+          _hover={{bg:'#0FA44A',color:'white'}}
+          p={3}
           justifyContent={'flex-start'}
           alignItems={'center'}
           >
@@ -39,6 +44,8 @@ const SideBar = () => {
           </Flex>
           <Flex
           my={6}
+          _hover={{bg:'#0FA44A',color:'white'}}
+          p={3}
           justifyContent={'flex-start'}
           alignItems={'center'}
           >
@@ -47,6 +54,8 @@ const SideBar = () => {
           </Flex>
           <Flex
           my={6}
+          _hover={{bg:'#0FA44A',color:'white'}}
+          p={3}
           justifyContent={'flex-start'}
           alignItems={'center'}
           >
@@ -55,6 +64,8 @@ const SideBar = () => {
           </Flex>
           <Flex
           my={6}
+          _hover={{bg:'#0FA44A',color:'white'}}
+          p={3}
           justifyContent={'flex-start'}
           alignItems={'center'}
           >
@@ -63,6 +74,8 @@ const SideBar = () => {
           </Flex>
           <Flex
           my={6}
+          _hover={{bg:'#0FA44A',color:'white'}}
+          p={3}
           justifyContent={'flex-start'}
           alignItems={'center'}
           >
@@ -71,6 +84,8 @@ const SideBar = () => {
           </Flex>
           <Flex
           my={6}
+          _hover={{bg:'#0FA44A',color:'white'}}
+          p={3}
           justifyContent={'flex-start'}
           alignItems={'center'}
           >
