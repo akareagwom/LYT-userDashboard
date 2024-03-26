@@ -1,6 +1,6 @@
 // "use Client"
 // "use server";
-import { Drawer, DrawerContent, DrawerHeader,DrawerCloseButton,Button, Link, Box, Flex, Icon} from "@chakra-ui/react";
+import { Drawer, DrawerContent, DrawerHeader,DrawerCloseButton,Button, Link, Box, Flex, Icon, Heading} from "@chakra-ui/react";
 // import {useDisclosure} from '@nextui-org/react';
 // import {useDisclosure} from '@chakra-ui/react'
 import { MdDashboard, MdOutlineContactSupport } from "react-icons/md";
@@ -12,36 +12,68 @@ const SideBar = () => {
 
     return ( 
         <Box
+        bg={'white'}
         w={'20%'} 
         display={'block'}
+        p={5}
+        defaultIndex={1}
         >
-          <Flex>
+          <Heading>LYT</Heading>
+          <Flex
+          my={6}
+          justifyContent={'flex-start'}
+          alignItems={'center'}
+          >
             {/* <Icon as={MdDashboard}/>  */}
             {/* <Icon as={MdDashboard} /> */}
             <MdDashboard/>
             <Link>Dashboard</Link>
           </Flex>
-          <Flex>
+          <Flex
+          my={6}
+          justifyContent={'flex-start'}
+          alignItems={'center'}
+          >
             <BiBarChart />
             <Link>Analytics</Link>
           </Flex>
-          <Flex>
+          <Flex
+          my={6}
+          justifyContent={'flex-start'}
+          alignItems={'center'}
+          >
             <IoPeopleOutline />
             <Link>Communities</Link>
           </Flex>
-          <Flex>
+          <Flex
+          my={6}
+          justifyContent={'flex-start'}
+          alignItems={'center'}
+          >
             <IoNotificationsOutline />
             <Link>Notification</Link>
           </Flex>
-          <Flex>
+          <Flex
+          my={6}
+          justifyContent={'flex-start'}
+          alignItems={'center'}
+          >
           <VscFileSubmodule />
             <Link>Media</Link>
           </Flex>
-          <Flex>
+          <Flex
+          my={6}
+          justifyContent={'flex-start'}
+          alignItems={'center'}
+          >
             <MdOutlineContactSupport />
             <Link>Support</Link>
           </Flex>
-          <Flex>
+          <Flex
+          my={6}
+          justifyContent={'flex-start'}
+          alignItems={'center'}
+          >
             <IoSettingsOutline />
             <Link>Settings</Link>
           </Flex>

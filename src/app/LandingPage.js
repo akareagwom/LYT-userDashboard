@@ -4,8 +4,7 @@ import SideBar from "./components/Drawer";
 const LandingPage = () => {
     return ( 
         <Box>
-          <SideBar/>
-          <Text>hola senioe</Text>  
+          <SideBar/> 
         </Box>
      );
 }
